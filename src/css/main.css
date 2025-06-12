@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.movie-list {display: flex; flex-wrap: wrap; padding: 0; margin: 0; list-style: none;}
+.movie-list > li {width: 45%; margin: 2%;background-color: #fff; border-radius: 10px; padding: 5px;}
+article ul > li > a {display: flex;}
+article li > a > img {width: 230px; transform: translate(6px, -33px); box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 10px rgba(0,0,0,0.22);}
+article li > a > img:hover {transform: scale(1.1); transition: 0.3s;}
+article li > a > p {padding: 30px;}
+.title {font-size: 26px; font-weight: bold;}
+.title, .year, .type, .summary, .rating {margin-bottom: 10px;}
+.rating {color: #f00; font-weight: bold;}
+.type {font-style: italic;}
+
+.movie-detail {display: flex; padding: 50px 150px;}
+.movie-detail > p {margin-left: 30px;}
+.movie-detail span {color: #fff;}
+.rating {border: 1px solid #fff; width: 60px; padding: 10px;}
